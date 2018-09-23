@@ -1,5 +1,5 @@
 Feature: Creating guest customer contact
-
+@contact
 Scenario: Create a contact using GuestCustomer
 Given I am on the login page
 When I fill in with valid credential
