@@ -9,7 +9,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 				"json:target/cucumber.json"
 				
 		},
-	    tags="@Dev", 
+	    tags="@contact", 
 		features="src/test/resources/com/phpTravel/features",
 		glue="com/phpTravel/step_definitions"
 		//,dryRun = true
